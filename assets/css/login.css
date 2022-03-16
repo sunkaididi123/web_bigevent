@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../images/login_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 310px;
+    background-color: white;
+    padding: 0 20px;
+}
+
+.container .logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container .username {
+    position: relative;
+}
+
+.container .username input {
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    padding-left: 30px;
+}
+
+.container .username i {
+    position: absolute;
+    top: 7px;
+    left: 9px;
+}
+
+.container .password {
+    margin: 15px 0;
+}
+
+.container .btn {
+    display: block;
+    width: 100%;
+    /* background-color: blue; */
+    /* padding: 8px 0; */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.container a {
+    float: right;
+    /* display: block; */
+    color: #000;
+    margin-top: 15px;
+    font-size: 12px;
+}
