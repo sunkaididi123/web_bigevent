@@ -14,7 +14,7 @@ $(function() {
             success: function(res) {
                 if (res.status !== 0) {
                     layer.msg('获取用户信息失败')
-                    return location.href = '/login.html'
+                        // return location.href = '/login.html'
 
                 }
                 layer.msg('获取用户信息成功')
